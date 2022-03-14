@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Thumbs = ({ images, current, setIndex }) => {
+const Thumbs = ({ images, setIndex }) => {
   return (
     <div className='image-container'>
       {' '}
