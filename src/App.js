@@ -5,7 +5,7 @@ import './index.css';
 import { slideData as images } from './data';
 
 function App() {
-  const delay = 3000;
+  const delay = 2500;
   const [index, setIndex] = useState(1);
   const [slider, setSlider] = useState(1);
   const checkboxRef = useRef();
