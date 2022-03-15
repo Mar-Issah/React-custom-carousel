@@ -40,12 +40,12 @@ function App() {
   };
 
   const handleCheckbox = (e) => {
-    console.log(e.target.checked);
+    // console.log(e.target.checked);
     if (e.target.checked) {
       checkboxRef.current = setInterval(handleSlider, delay);
-      console.log('isChecked');
+      // console.log('isChecked');
     } else {
-      console.log('not checked');
+      // console.log('not checked');
       clearInterval(checkboxRef.current);
       setSlider(false);
     }
